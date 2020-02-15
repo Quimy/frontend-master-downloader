@@ -2,7 +2,7 @@
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/sepiropht/frontend-master-downloader.svg)](https://greenkeeper.io/)
 
-Download content from frontendmaster with puppeteer
+Download content from frontendmaster with puppeteer. Version fixed, but not everything will work as should.
 
 ### Usage
 
@@ -21,13 +21,6 @@ https://sites.google.com/a/chromium.org/chromedriver/downloads
 cp chromedriver /usr/local/bin/chromedriver
 ```
 
-# Try it
-
-Checkout the repo then install it
-
-```
-npm install frontend-master-downloader -g
-```
 Use the command by doing
 
 ```
@@ -41,3 +34,7 @@ Directory is optional, if not provided, the script will create a Download direct
 frontend-master-downloader -u sepiropht -p mypassword -c leveldb-crypto
 
 ```
+
+# Timeout issue
+
+Probably caused by reCAPTCHA. You have to pass reCAPTCHA by yourself.
